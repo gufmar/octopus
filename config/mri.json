@@ -6,12 +6,16 @@
     "ignore-query": [],
     "ignore-external": false,
     "ignore-nofollow": false,
-    "slack-webhook": ""
+    "slack-webhook": "",
+    "report-file": "",
+    "user-agent": "Octopus"
   },
   "string": [
     "timeout",
     "ignore-query",
-    "slack-webhook"
+    "slack-webhook",
+    "report-file",
+    "user-agent"
   ],
   "boolean": [
     "help",
@@ -20,6 +24,10 @@
     "ignore-nofollow"
   ],
   "alias": {
-    "h": "help"
+    "h": "help",
+    "r": "report-file",
+    "s": "silent",
+    "t": "timeout",
+    "u": "user-agent"
   }
 }
